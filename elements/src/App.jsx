@@ -4,6 +4,7 @@ import ControlledComponent from './ControlledComponent'
 import ForEachLoop from './ForEachLoop'
 import InputFeild from './InputFeild'
 import RadioAndDropdown from './RadioAndDropdown'
+import Toggle from './Toggle'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <ForEachLoop></ForEachLoop>
     <RadioAndDropdown></RadioAndDropdown>
     <ControlledComponent></ControlledComponent>
+    <Toggle></Toggle>
     </>
   )
 }
