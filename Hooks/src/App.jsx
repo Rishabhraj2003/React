@@ -4,6 +4,8 @@ import UseRef from "./UseRef";
 import UseTransition from "./UseTranstion";
 import DerivedState from "./DerivedState";
 import UpdateObject from "./UpdateObject";
+import UseActionState from "./UseActionState";
+import UseID from "./UseID";
 function App() {
   return (
     <>
@@ -12,6 +14,8 @@ function App() {
       <UseTransition></UseTransition>
       <DerivedState></DerivedState>
       <UpdateObject></UpdateObject>
+      <UseActionState></UseActionState>
+      <UseID></UseID>
     </>
   );
 }
